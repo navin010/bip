@@ -10,10 +10,6 @@ catNum = str(input("Please Enter Catalouge Number: "))                #catalouge
 ipfile = r"C:\Users\lubhayan\Documents\Clients\Internal\BIP Scripts\CSV Edit of AF M3 to IFS Parts Codes.csv"                   #r = raw string, don't need to escape charachters
 opfile = r"C:\Users\lubhayan\Documents\Clients\Internal\BIP Scripts\SQL_Output.txt"
 
-new_id1 = "NAVIN"
-new_descr = "NAVIN2"
-old_id1 = "ABSCOT"
-
 
 with open(ipfile, 'r') as csv_file:                     #open file to read from (with auto closes files)
     csv_reader = csv.reader(csv_file)                   #read as csv
