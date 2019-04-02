@@ -28,3 +28,5 @@ with open(ipfile, 'r') as csv_file:                     #open file to read from 
             statement = "UPDATE ctlg_obj SET ID1='" + new_id1 + "', " + "DESCR='" + new_descr + "' WHERE CTLG_NR='" + catNum + "' AND ID1 = '" + old_id1 + "';\n"
             #print(statement)
             new_file.write(statement)
+
+print("***Complete***")
